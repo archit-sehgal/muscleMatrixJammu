@@ -2,12 +2,10 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import slide1 from "../assets/ptservice.jpg";
-import slide2 from "../assets/ptservice.jpg";
-import slide3 from "../assets/ptservice.jpg";
-import slide4 from "../assets/ptservice.jpg";
-import slide5 from "../assets/ptservice.jpg";
-import slide6 from "../assets/ptservice.jpg";
+import slide1 from "../assets/01.png";
+import slide2 from "../assets/02.png";
+import slide3 from "../assets/03.jpg";
+import slide4 from "../assets/04.jpg";
 
 const ImageSlider = () => {  // Renamed component from Slider to ImageSlider
   const settings = {
@@ -30,7 +28,7 @@ const ImageSlider = () => {  // Renamed component from Slider to ImageSlider
       {
         breakpoint: 1024, // Tablets (width ≤ 1024px)
         settings: {
-          slidesToShow: 2, // Show 2 images on tablets
+          slidesToShow: 3, // Show 2 images on tablets
           slidesToScroll: 1,
         },
       },
@@ -52,12 +50,6 @@ const ImageSlider = () => {  // Renamed component from Slider to ImageSlider
         </div>
         <div>
           <img src={slide4} alt="Slide 4" className="slider-image" />
-        </div>
-        <div>
-          <img src={slide5} alt="Slide 5" className="slider-image" />
-        </div>
-        <div>
-          <img src={slide6} alt="Slide 6" className="slider-image" />
         </div>
       </Slider>
     </div>

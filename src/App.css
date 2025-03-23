@@ -20,6 +20,7 @@ html {
 a {
   text-decoration: none;
 }
+
 .slider-container {
   width: 80%;
   margin: auto;
@@ -28,10 +29,10 @@ a {
 
 .slider-image {
   width: 100%;
+  height: 300px;
   max-width: 400px;
   border-radius: 10px;
 }
-
 
 .homemain {
   width: 100%;
@@ -124,7 +125,8 @@ a {
   flex-direction: column;
   align-items: center;
 }
-.hero-black-content img{
+
+.hero-black-content img {
   border-radius: 50%;
   height: 150px;
   opacity: .8;
@@ -254,7 +256,7 @@ a {
 
 .servicesimg h3 {
   font-size: 4rem;
-  color: rgb(231, 229, 229);
+  color: rgb(167, 47, 47);
   line-height: 3.7rem;
   text-align: center;
   margin-bottom: 10px;
@@ -427,7 +429,7 @@ a {
   }
 
   .servicesimg h3 {
-    color: #b2b4b6;
+    color: rgb(167, 47, 47);
     font-size: 2rem;
     line-height: 2rem;
   }
