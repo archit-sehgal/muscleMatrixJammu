@@ -20,6 +20,18 @@ html {
 a {
   text-decoration: none;
 }
+.slider-container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+.slider-image {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
 
 .homemain {
   width: 100%;
@@ -415,8 +427,9 @@ a {
   }
 
   .servicesimg h3 {
-    font-size: 3rem;
-    line-height: 3rem;
+    color: #b2b4b6;
+    font-size: 2rem;
+    line-height: 2rem;
   }
 
 }

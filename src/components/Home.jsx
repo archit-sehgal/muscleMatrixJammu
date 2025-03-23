@@ -1,6 +1,7 @@
 import React from "react";
 import namelogo from "../assets/namelogo.png";
 import logocenter from "../assets/logocenter.png";
+import ImageSlider from "./Slider.jsx";
 const Home = () => {
   return (
     <div className="homemain flex">
@@ -96,13 +97,14 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <ImageSlider/>
       <div className="services flex">
         <div className="servicesimg flex">
-          <h3>Contact Us Now</h3>
+          <h3>Start Your Fitness Journey Now</h3>
           <button
             onClick={() => (window.location.href = "tel:+917380629555")}
           >
-            Learn More
+            CONTACT US
           </button>
         </div>
       </div>
